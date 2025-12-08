@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# ji.rpkg.template: TAGLINE
+# vimc.rpkg.template: TAGLINE
 
 <!-- badges: start -->
 
@@ -10,28 +10,29 @@ yet, or the repository is only intended to be a limited example, demo,
 or
 proof-of-concept.](https://www.repostatus.org/badges/latest/concept.svg)](https://www.repostatus.org/#concept)
 [![R build
-status](https://github.com/jameel-institute/ji.rpkg.template/workflows/R-CMD-check/badge.svg)](https://github.com/jameel-institute/ji.rpkg.template/actions/workflows/R-CMD-check.yaml)
+status](https://github.com/vimc/vimc.rpkg.template/workflows/R-CMD-check/badge.svg)](https://github.com/vimc/vimc.rpkg.template/actions/workflows/R-CMD-check.yaml)
 [![Codecov test
-coverage](https://codecov.io/gh/jameel-institute/ji.rpkg.template/branch/main/graph/badge.svg)](https://app.codecov.io/gh/jameel-institute/ji.rpkg.template?branch=main)
+coverage](https://codecov.io/gh/vimc/vimc.rpkg.template/branch/main/graph/badge.svg)](https://app.codecov.io/gh/vimc/vimc.rpkg.template?branch=main)
 [![CRAN
-status](https://www.r-pkg.org/badges/version/ji.rpkg.template)](https://CRAN.R-project.org/package=ji.rpkg.template)
+status](https://www.r-pkg.org/badges/version/vimc.rpkg.template)](https://CRAN.R-project.org/package=vimc.rpkg.template)
 <!-- badges: end -->
 
-*ji.rpkg.template* is a template package and repository on which future
-Jameel Institute packages are based.
+*vimc.rpkg.template* is a template package and repository on which
+future VIMC R packages are based.
 
-To use this template, select *ji.rpkg.template* from the drop-down menu
-under **Repository template** when creating a new repository in the
-Jameel Institute organisation. Replace all instances of
-“ji.rpkg.template” with your package name. Make sure to also:
+To use this template, select *vimc.rpkg.template* from the drop-down
+menu under **Repository template** when creating a new repository in the
+VIMC GitHub organisation. Replace all instances of
+`"vimc.rpkg.template"` with your package name. Make sure to also:
 
 1.  Edit the `DESCRIPTION` as appropriate with the correct package
-    information;
+    information, including authors;
 
 2.  Edit the files in `R/`, `tests/`, and `vignettes/` to suit your
     package;
 
-3.  Add spell check by running usethis::use_spell_check(lang = “en-GB”)
+3.  Add spell check by running
+    `usethis::use_spell_check(lang = "en-GB")`;
 
 4.  Remove these instructions from `README.Rmd`, and re-render the `.md`
     file using `devtools::render_readme()`.
@@ -40,24 +41,27 @@ Jameel Institute organisation. Replace all instances of
 
 **NOTE:** Remove or comment out installation sources as appropriate.
 
-You can install the development version of ji.rpkg.template from the
-Jameel Institute R-universe with:
+**Remember** to add the package to the [VIMC
+R-universe](https://github.com/vimc/vimc.r-universe.dev).
+
+You can install the development version of *vimc.rpkg.template* from the
+VIMC R-universe with:
 
 ``` r
-# installation from R-universe
-# install.packages(
-#   "ji.rpkg.template", 
-#   repos = c(
-#     "https://jameel-institute.r-universe.dev", "https://cloud.r-project.org"
-#   )
-# )
+installation from R-universe
+install.packages(
+  "vimc.rpkg.template", 
+  repos = c(
+    "https://vimc.r-universe.dev", "https://cloud.r-project.org"
+  )
+)
 ```
 
 or from GitHub [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("pak")
-# pak::pak("jameel-institute/ji.rpkg.template")
+install.packages("pak")
+pak::pak("vimc/vimc.rpkg.template")
 ```
 
 ## Quick start
