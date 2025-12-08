@@ -2,4 +2,4 @@
 
 ### All vignettes
 
-- [ji-rpkg-template](ji-rpkg-template.md):
+- [vimc-rpkg-template](vimc-rpkg-template.md):

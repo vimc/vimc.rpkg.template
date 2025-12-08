@@ -1,4 +1,4 @@
 # License
 
-    YEAR: 2024
-    COPYRIGHT HOLDER: ji.rpkg.template authors
+    YEAR: 2025
+    COPYRIGHT HOLDER: Imperial College of Science, Technology and Medicine
