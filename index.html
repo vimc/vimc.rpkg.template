@@ -39,6 +39,7 @@
 <li class="nav-item"><form class="form-inline" role="search">
  <input class="form-control" type="search" name="search-input" id="search-input" autocomplete="off" aria-label="Search site" placeholder="Search for" data-search-index="search.json">
 </form></li>
+<li class="nav-item"><a class="external-link nav-link" href="https://github.com/vimc/vimc.rpkg.template/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
       </ul>
 </div>
 
@@ -56,8 +57,7 @@
 <ol style="list-style-type: decimal">
 <li><p>Edit the <code>DESCRIPTION</code> as appropriate with the correct package information, including authors;</p></li>
 <li><p>Edit the files in <code>R/</code>, <code>tests/</code>, and <code>vignettes/</code> to suit your package;</p></li>
-<li><p>Add spell check by running <code>usethis::use_spell_check(lang = "en-GB")</code>;</p></li>
-<li><p>Remove these instructions from <code>README.Rmd</code>, and re-render the <code>.md</code> file using <code>devtools::render_readme()</code>.</p></li>
+<li><p>Remove these instructions from <code>README.Rmd</code>. Then, either let the automated GitHub Actions workflow update <code>README.md</code> once the change is pushed to GitHub, or disable the workflow by removing the file <code>.github/workflows/render-readme.yaml</code>, and manually re-render the <code>.md</code> file using <code>devtools::render_readme()</code>.</p></li>
 </ol>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
@@ -86,14 +86,28 @@
 <h2 id="related-projects">Related projects<a class="anchor" aria-label="anchor" href="#related-projects"></a>
 </h2>
 <p>Add information and links to related projects, such as research papers or packages, here.</p>
+<p>An example citation would be Echeverria-Londono et al. (<a href="#ref-echeverria-londono2021">2021</a>).</p>
 </div>
 <div class="section level2">
 <h2 id="references">References<a class="anchor" aria-label="anchor" href="#references"></a>
 </h2>
-<p>Space for references: REMOVE this text.</p>
+<p><strong>Space for references: REMOVE this sub-section if there are no references. References, if any, should appear below this text. Remove this text in packages.</strong></p>
+<div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0">
+<div id="ref-echeverria-londono2021" class="csl-entry">
+Echeverria-Londono, Susy, Xiang Li, Jaspreet Toor, Margaret J. De Villiers, Shevanthi Nayagam, Timothy B. Hallett, Kaja Abbas, et al. 2021. “How Can the Public Health Impact of Vaccination Be Estimated?” <em>BMC Public Health</em> 21 (1): 2049. <a href="https://doi.org/10.1186/s12889-021-12040-9" class="external-link uri">https://doi.org/10.1186/s12889-021-12040-9</a>.
 </div>
 </div>
-  </main><aside class="col-md-3"><div class="license">
+</div>
+</div>
+  </main><aside class="col-md-3"><div class="links">
+<h2 data-toc-skip>Links</h2>
+<ul class="list-unstyled">
+<li><a href="https://github.com/vimc/vimc.rpkg.template/" class="external-link">Browse source code</a></li>
+<li><a href="https://github.com/vimc/vimc.rpkg.template/issues" class="external-link">Report a bug</a></li>
+</ul>
+</div>
+
+<div class="license">
 <h2 data-toc-skip>License</h2>
 <ul class="list-unstyled">
 <li><a href="LICENSE.html">Full license</a></li>

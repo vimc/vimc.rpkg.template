@@ -5,6 +5,16 @@ relevant bibliographical references if applicable, using the following
 format: Author et al. (2023)
 [doi:10.5281/zenodo.6619350](https://doi.org/10.5281/zenodo.6619350) .
 
+## See also
+
+Useful links:
+
+- <https://github.com/vimc/vimc.rpkg.template>
+
+- <https://vimc.github.io/vimc.rpkg.template/>
+
+- Report bugs at <https://github.com/vimc/vimc.rpkg.template/issues>
+
 ## Author
 
 **Maintainer**: Pratik Gupte <p.gupte24@imperial.ac.uk>

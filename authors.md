@@ -10,12 +10,17 @@
 
 ## Citation
 
+Source:
+[`DESCRIPTION`](https://github.com/vimc/vimc.rpkg.template/blob/main/DESCRIPTION)
+
 Gupte P (2025). *vimc.rpkg.template: Your Package Title in Title Case*.
-R package version 0.0.0.9000.
+R package version 0.0.0.9000,
+<https://github.com/vimc/vimc.rpkg.template>.
 
     @Manual{,
       title = {vimc.rpkg.template: Your Package Title in Title Case},
       author = {Pratik Gupte},
       year = {2025},
       note = {R package version 0.0.0.9000},
+      url = {https://github.com/vimc/vimc.rpkg.template},
     }

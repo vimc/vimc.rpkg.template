@@ -14,11 +14,11 @@ VIMC GitHub organisation. Replace all instances of
 2.  Edit the files in `R/`, `tests/`, and `vignettes/` to suit your
     package;
 
-3.  Add spell check by running
-    `usethis::use_spell_check(lang = "en-GB")`;
-
-4.  Remove these instructions from `README.Rmd`, and re-render the `.md`
-    file using `devtools::render_readme()`.
+3.  Remove these instructions from `README.Rmd`. Then, either let the
+    automated GitHub Actions workflow update `README.md` once the change
+    is pushed to GitHub, or disable the workflow by removing the file
+    `.github/workflows/render-readme.yaml`, and manually re-render the
+    `.md` file using `devtools::render_readme()`.
 
 ## Installation
 
@@ -58,9 +58,20 @@ prefer to hide them to keep focus on the package functionality.
 Add information and links to related projects, such as research papers
 or packages, here.
 
+An example citation would be Echeverria-Londono et al.
+([2021](#ref-echeverria-londono2021)).
+
 ## References
 
-Space for references: REMOVE this text.
+**Space for references: REMOVE this sub-section if there are no
+references. References, if any, should appear below this text. Remove
+this text in packages.**
+
+Echeverria-Londono, Susy, Xiang Li, Jaspreet Toor, Margaret J. De
+Villiers, Shevanthi Nayagam, Timothy B. Hallett, Kaja Abbas, et al.
+2021. “How Can the Public Health Impact of Vaccination Be Estimated?”
+*BMC Public Health* 21 (1): 2049.
+<https://doi.org/10.1186/s12889-021-12040-9>.
 
 # Package index
 
