@@ -1,6 +1,8 @@
 ---
 output: github_document
-# add bibliography here
+# NOTE: place references if any as a JSON in `vignettes/resources`
+# NOTE: references file can have any name, and there can be separate references per vignette
+bibliography: vignettes/resources/references.json
 link-citations: true
 ---
 
@@ -33,9 +35,7 @@ Replace all instances of `"vimc.rpkg.template"` with your package name. Make sur
 
 2. Edit the files in `R/`, `tests/`, and `vignettes/` to suit your package;
 
-3. Add spell check by running `usethis::use_spell_check(lang = "en-GB")`;
-
-4. Remove these instructions from `README.Rmd`, and re-render the `.md` file using `devtools::render_readme()`.
+3. Remove these instructions from `README.Rmd`. Then, either let the automated GitHub Actions workflow update `README.md` once the change is pushed to GitHub, or disable the workflow by removing the file `.github/workflows/render-readme.yaml`, and manually re-render the `.md` file using `devtools::render_readme()`.
 
 ## Installation
 
@@ -71,6 +71,8 @@ If preparatory or plotting steps are needed, prefer to hide them to keep focus o
 
 Add information and links to related projects, such as research papers or packages, here.
 
+An example citation would be @echeverria-londono2021.
+
 ## References
 
-Space for references: REMOVE this text.
+**Space for references: REMOVE this sub-section if there are no references. References, if any, should appear below this text. Remove this text in packages.**

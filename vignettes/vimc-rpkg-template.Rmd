@@ -1,6 +1,9 @@
 ---
 title: "vimc-rpkg-template"
 output: rmarkdown::html_vignette
+# NOTE: make references if any available as a JSON at a location, see e.g. below
+# NOTE: uncomment the line below, and update the references path as needed
+# bibliography: resources/references.json
 vignette: >
   %\VignetteIndexEntry{vimc-rpkg-template}
   %\VignetteEngine{knitr::rmarkdown}
