@@ -8,6 +8,15 @@
 \description{
 Your package description. It must end with a period (".") and include relevant bibliographical references if applicable, using the following format: Author et al. (2023) \doi{10.5281/zenodo.6619350}.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/vimc/vimc.rpkg.template}
+  \item \url{https://vimc.github.io/vimc.rpkg.template/}
+  \item Report bugs at \url{https://github.com/vimc/vimc.rpkg.template/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Pratik Gupte \email{p.gupte24@imperial.ac.uk} (\href{https://orcid.org/0000-0001-5294-7819}{ORCID})
 
